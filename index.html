@@ -40,17 +40,6 @@
     let stu_info = {
       name: '', number: '', gender: '', grade: '', collage: '', spec: '', className: '', home: ''
     }
-    if(window.localStorage.getItem('stu_info')){
-      stu_info = JSON.parse(window.localStorage.getItem('stu_info'))
-      document.getElementById('name').value = stu_info.name
-      document.getElementById('number').value = stu_info.number
-      document.getElementById('gender').value = stu_info.gender
-      document.getElementById('grade').value = stu_info.grade
-      document.getElementById('collage').value = stu_info.collage
-      document.getElementById('spec').value = stu_info.spec 
-      document.getElementById('className').value = stu_info.className 
-      document.getElementById('home').value =stu_info.home
-    }
     function saveInfo() {
       stu_info.name = document.getElementById('name').value
       stu_info.number = document.getElementById('number').value
