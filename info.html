@@ -96,37 +96,19 @@
   setInterval(() => {
     getTime()
   }, 1000)
-  let stu_info = {
-	  name: '王江跃',
-	  number: 123,
-	  gender: '男',
-	  grade: 19,
-	  collage: '机械',
-	  spec: '专业',
-	  className: '班级',
-	  home: '宿舍'
-  } 
-  document.getElementById('name').innerHTML = stu_info.name
-  document.getElementById('number').innerHTML = stu_info.number
-  document.getElementById('gender').innerHTML = stu_info.gender
-  document.getElementById('grade').innerHTML = stu_info.grade
-  document.getElementById('collage').innerHTML = stu_info.collage
-  document.getElementById('spec').innerHTML = stu_info.spec 
-  document.getElementById('className').innerHTML = stu_info.className 
-  document.getElementById('home').innerHTML =stu_info.home
-  // if(window.localStorage.getItem('stu_info')){
-  //     stu_info = JSON.parse(window.localStorage.getItem('stu_info'))
-  //     document.getElementById('name').innerHTML = stu_info.name
-  //     document.getElementById('number').innerHTML = stu_info.number
-  //     document.getElementById('gender').innerHTML = stu_info.gender
-  //     document.getElementById('grade').innerHTML = stu_info.grade
-  //     document.getElementById('collage').innerHTML = stu_info.collage
-  //     document.getElementById('spec').innerHTML = stu_info.spec 
-  //     document.getElementById('className').innerHTML = stu_info.className 
-  //     document.getElementById('home').innerHTML =stu_info.home
-  //   } else {
-  //     window.location.href('./index.html')
-  //   }
+  if(window.localStorage.getItem('stu_info')){
+      stu_info = JSON.parse(window.localStorage.getItem('stu_info'))
+      document.getElementById('name').innerHTML = stu_info.name
+      document.getElementById('number').innerHTML = stu_info.number
+      document.getElementById('gender').innerHTML = stu_info.gender
+      document.getElementById('grade').innerHTML = stu_info.grade
+      document.getElementById('collage').innerHTML = stu_info.collage
+      document.getElementById('spec').innerHTML = stu_info.spec 
+      document.getElementById('className').innerHTML = stu_info.className 
+      document.getElementById('home').innerHTML =stu_info.home
+    } else {
+      window.location.href('./index.html')
+    }
   </script>
 </body>
 </html>
