@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>签到</title>
+</head>
+<body>
+  <div class="title-box">
+    <div class="left">
+      <svg t="1622185511702" class="icon" viewBox="0 0 1053 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3482" width="16" height="16"><path d="M7.329412 397.752941c-0.552941 1.082353-1.470588 1.988235-1.952941 3.105883-9.611765 20-6.470588 44.470588 10.588235 60.552941l385.905882 365.035294a52.458824 52.458824 0 0 0 72.094118-76.211765L127.670588 422.647059 472.6 90.2a52.447059 52.447059 0 0 0-72.788235-75.517647L17.364706 383.282353c-0.741176 0.729412-1.011765 1.741176-1.752941 2.505882-0.552941 0.529412-1.176471 0.917647-1.705883 1.470589-2.976471 3.117647-4.552941 6.929412-6.57647 10.494117z m0 0" p-id="3483"></path></svg>
+    </div>
+    <div class="center">
+      <svg t="1622185319020" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2396" width="16" height="16"><path d="M771.2 375l-275 266.3c-1.9 2.9-3.8 5.8-6.7 7.7-7.7 7.7-18.2 11.5-28.7 11.5-10.6 0-21.1-3.8-29.7-11.5-1.9-1.9-4.8-4.8-5.8-7.7L277.7 498.6c-15.3-15.3-15.3-39.3 0-54.6 15.3-15.4 41.2-15.4 56.5 0l126.5 121.7 253.9-245.3c16.3-15.3 41.2-15.3 56.5 0 16.4 14.4 16.4 39.3 0.1 54.6z m147.6-227.1c-12.5-11.5-28.8-17.3-45-17.3H869c-1 0-11.5 1-27.8 1-27.8 0-80.5-1.9-131.3-14.4-65.2-15.3-140.9-87.1-163-101.5-10.5-6.7-24-10.5-36.4-10.5S485.6 9 474.1 15.7C471.3 17.6 392.7 99 316 117.2c-50.8 12.4-105.4 14.4-132.2 14.4-17.3 0-27.8-1-28.7-1h-3.8c-17.3 0-32.6 5.8-45 17.3-13.4 11.5-21.1 28.7-21.1 46v159c0 586.4 397.6 662.1 413.9 665 3.8 1 7.7 1 11.5 1s7.7 0 11.5-1c17.2-2.9 416.8-78.6 416.8-665v-159c0-17.3-7.7-34.5-20.1-46z" p-id="2397"></path></svg>
+      签到
+    </div>
+  </div>
+  <div class="container">
+    <div class="sub-container">
+      <div class="marquee">
+        <span class="fw">动态防伪条</span>
+        <span class="bar">
+          <span class="bar-item"></span> <span class="content-space"></span>
+        </span>
+      </div>
+      <div class="time-box">
+        <span class="current">当前时间：<span id="time"></span></span>
+        <svg t="1622166496152" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2438" width="32" height="32"><path d="M720.32 768a45.76 45.76 0 0 1-33.408-14.336l-416.64-416.576c-19.072-19.072-19.072-49.28 0-66.752 19.136-19.136 49.28-19.136 66.816 0l416.64 414.976c19.072 19.072 19.072 49.28 0 66.816a44.288 44.288 0 0 1-33.408 15.872z" fill="#ffffff" p-id="2439"></path><path d="M303.68 768a45.76 45.76 0 0 1-33.344-14.336c-19.136-19.072-19.136-49.28 0-66.752l414.976-416.64c19.072-19.072 49.28-19.072 66.816 0 19.072 19.136 19.072 49.28 0 66.816l-415.04 416.64a45.76 45.76 0 0 1-33.408 14.272z" fill="#ffffff" p-id="2440"></path></svg>
+      </div>
+      <div class="success">
+        <svg t="1622167804987" class="icon" viewBox="0 0 1025 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3442" data-spm-anchor-id="a313x.7781069.0.i9" width="32" height="32"><path d="M511.974401 0c-282.75527 0-511.974401 229.219131-511.974401 511.974401 0 282.757318 229.219131 511.974401 511.974401 511.974401 282.757318 0 511.974401-229.217083 511.974401-511.974401C1023.948803 229.219131 794.729672 0 511.974401 0zM805.63063 379.174385 474.510162 710.296901c0 0-0.004096 0.004096-0.010239 0.010239-15.265029 15.269125-38.541433 17.652877-56.31104 7.157402-3.290971-1.945503-6.393536-4.333351-9.219635-7.157402-0.002048-0.004096-0.006144-0.006144-0.006144-0.006144l-190.642884-190.642884c-18.095223-18.095223-18.095223-47.4375 0-65.536819 18.095223-18.095223 47.4375-18.095223 65.532723 0l157.884714 157.884714 298.362298-298.362298c18.097271-18.095223 47.439548-18.095223 65.534771 0C823.725854 331.738933 823.725854 361.079162 805.63063 379.174385z" p-id="3443" fill="#ffffff" data-spm-anchor-id="a313x.7781069.0.i10" class="selected"></path></svg>
+        <span>签到成功</span>
+      </div>
+      <div class="info-box">
+        <ul>
+          <li>姓名：<span id="name">姓名：</span></li>
+          <li>学号：<span id="number">姓名：</span></li>
+          <li>性别：<span id="gender">姓名：</span></li>
+          <li>年级：<span id="grade">姓名：</span></li>
+          <li>学院：<span id="collage">姓名：</span></li>
+          <li>专业：<span id="spec">姓名：</span></li>
+          <li>班级：<span id="className">姓名：</span></li>
+          <li>宿舍：<span id="home">-</span></li>
+        </ul>
+      </div>
+    </div>
+    <a href="./img.html">
+    <p class="back">返回APP首页</p></a>
+    
+  </div>
+  <script>
+(function () {
+  var speed = 40;
+
+  var $marquee = document.querySelector('.marquee');
+  var $marqueeContent = $marquee.querySelector('.bar');
+  $marqueeContent.innerHTML = $marqueeContent.innerHTML + $marqueeContent.innerHTML +$marqueeContent.innerHTML + $marqueeContent.innerHTML +$marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML +$marqueeContent.innerHTML + $marqueeContent.innerHTML +$marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML
+
+  var contentWidth = $marqueeContent.getBoundingClientRect().width;
+  
+  if (contentWidth <= 0) {
+    return;
+  }
+  contentWidth = contentWidth / 32
+  var onceTime = contentWidth / speed * 1500; //ms
+
+  $marqueeContent.style.animationDuration = onceTime + "ms"
+})()
+  function getTime() {
+    var myDate = new Date();
+    let year = myDate.getFullYear();
+    let month = myDate.getMonth();
+    if(month< 10) {
+      month = '0' + (month+1)
+    }
+    let day = myDate.getDate();
+    if(day<10) {
+      day = '0' + day
+    }
+    let hour = myDate.getHours(); 
+    if(hour<10) {
+      hour = '0' + hour
+    }
+    let min = myDate.getMinutes(); 
+    if(min<10) {
+      min = '0' + min
+    }
+    let second = myDate.getSeconds();
+    if(second<10) {
+      second = '0' + second
+    }
+    document.getElementById('time').innerHTML = year + '-' + month  + '-' + day  + '  ' + hour + ':' +  min  + ':' + second 
+  }
+  setInterval(() => {
+    getTime()
+  }, 1000)
+  let stu_info = {
+	  name: '王江跃',
+	  number: 123,
+	  gender: '男',
+	  grade: 19,
+	  collage: '机械',
+	  spec: '专业',
+	  className: '班级',
+	  home: '宿舍'
+  } 
+  document.getElementById('name').innerHTML = stu_info.name
+  document.getElementById('number').innerHTML = stu_info.number
+  document.getElementById('gender').innerHTML = stu_info.gender
+  document.getElementById('grade').innerHTML = stu_info.grade
+  document.getElementById('collage').innerHTML = stu_info.collage
+  document.getElementById('spec').innerHTML = stu_info.spec 
+  document.getElementById('className').innerHTML = stu_info.className 
+  document.getElementById('home').innerHTML =stu_info.home
+  // if(window.localStorage.getItem('stu_info')){
+  //     stu_info = JSON.parse(window.localStorage.getItem('stu_info'))
+  //     document.getElementById('name').innerHTML = stu_info.name
+  //     document.getElementById('number').innerHTML = stu_info.number
+  //     document.getElementById('gender').innerHTML = stu_info.gender
+  //     document.getElementById('grade').innerHTML = stu_info.grade
+  //     document.getElementById('collage').innerHTML = stu_info.collage
+  //     document.getElementById('spec').innerHTML = stu_info.spec 
+  //     document.getElementById('className').innerHTML = stu_info.className 
+  //     document.getElementById('home').innerHTML =stu_info.home
+  //   } else {
+  //     window.location.href('./index.html')
+  //   }
+  </script>
+</body>
+</html>
+<style>
+    a {
+    color: #fff;
+    text-decoration: none;
+  }
+  html{
+    height: 100%;
+  }
+  body{
+    position: relative;
+    background-color: #8C8C8C;
+    height: 100%;
+    margin: 0;
+  }
+  .container {
+    position: absolute;
+    width: 85%;
+    color: #fff;
+    min-height: 40%;
+    
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+  }
+  .sub-container {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #4992F2;
+  }
+
+  @keyframes kf-marque-animation{ 0% { transform: translateX(-33.3%); } 100% { transform: translateX(0); } }
+.marquee{
+  width: 100%;
+  height: 22px;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: clip;
+  position: relative;
+  top: -1.5px;
+}
+.marquee .bar{
+  height: 15px;
+  display: inline-block;
+  position: relative;
+  padding-right: 0px;
+  white-space: nowrap;
+  animation: kf-marque-animation 12s infinite linear;
+}
+.marquee .content-space{
+  display: inline-block;
+  width: 1.5em;
+}
+.bar-item {
+  display: inline-block;
+  width: 35px;
+  height: 15px;
+  background-color: #F2D541;
+  transform: skew(-45deg, 0deg);
+}
+.fw {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  width: 100px;
+  border-radius: 8px;
+  text-align: center;
+  height: 17px;
+  line-height: 17px;
+  background-color: rgba(51, 51, 51,.3);
+  z-index: 100;
+  font-size: 13px;
+}
+.time-box{
+  font-size: 13px;
+  text-align: center;
+  position: relative;
+}
+.time-box svg {
+  position: absolute;
+  right: 5px;
+  top: -5px;
+}
+.time-box .current {
+  display: inline-block;
+  padding: 4px 0;
+  color: #fff;
+}
+.success{
+  height: 23px;
+  width: 40%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.success svg {
+  width: 23px;
+  height: 23px;
+}
+.success span {
+  vertical-align: top;
+  display: inline-block;
+  height: 23px;
+  line-height: 23px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.info-box ul {
+  margin-top: 5px;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+.info-box ul li {
+  margin: 5px 0;
+}
+.back {
+  width: 100px;
+  margin: 10px auto;
+  border: 1px solid #fff;
+  text-align: center;
+  height: 24px;
+  line-height: 26px;
+  font-size: 13px;
+  border-radius: 5px;
+}
+.title-box {
+  background-color: #fff;
+  height: 40px;
+  width: 100%;
+  position: relative;
+}
+.title-box .left{
+  position: absolute;
+  top: 60%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+.center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10px;
+}
+</style>
